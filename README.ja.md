@@ -1,9 +1,6 @@
-[![Build Status](https://travis-ci.org/ryuichiueda/ros_setup_scripts_Ubuntu16.04_server.svg?branch=master)](https://travis-ci.org/ryuichiueda/ros_setup_scripts_Ubuntu16.04_server)
-（Travis CIでUbuntu 16.04がまだ動かないので小細工しています。）
+# ros_setup_scripts_Ubuntu17.04
 
-# ros_setup_scripts_Ubuntu16.04
-
-ROS（Kinetic Kame）をUbuntu 16.04に一発でインストール・セットアップするシェルスクリプトです。
+ROS（Lunar Loggerhead）をUbuntu 17.04に一発でインストール・セットアップするシェルスクリプトです。
 
 # scripts
 
@@ -25,21 +22,9 @@ locale.ja.bashを実行してください。
 
 Ubuntuに日本語環境をセットアップして、roscoreがLANG=C無しで動くようにします。
 
-# 注意
-
-2016年5月29日現在、http://jp.archive.ubuntu.com/ubuntu/pool/universe/r/ros-genpy/
-が存在しないため、
-
-    $ sudo apt-get install -y python-roslaunch
-
-でエラーが出ます。
-
-/etc/apt/sources.list内のURLのjp.をus.等に変更をお願いします。
-
-
 # 環境
 
 以下で検証しました。
 
-* Ubuntu Server 16.04 on VirtualBox
+* Ubuntu Desktop 17.04
 
